@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Form Name</title>
+</head>
+
+<body>
+
+	<h1>Form Name</h1>
+	<hr>
+
+
+	<div class="f1">
+		<h2>Nome:</h2>
+		<input type="text" name="nome">
+	</div>
+
+	<div class="f2">
+		<h2>Data de Nascimento:</h2>
+		<input type="data" name="data">
+	</div>
+
+	<div class="f3">
+		<h2>Endereço:</h2>
+		<input type="text" name="addres">
+	</div>
+
+	<div class="f4">
+		<h2>Nro:</h2>
+		<input type="text" name="nro">
+	</div>
+
+	<div class="f5">
+		<h2>Cidade:</h2>
+		<input type="text" name="city">
+	</div>
+
+	
+	<div class="f6">
+		<h2>Estado:</h2>
+			<form method="POST">
+			
+				<select name="estado">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="ES">Espirito Santo</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="DF">Distrito Federal	</option>
+				<option value="BA">Bahia</option>
+				</select>
+			</form>
+	</div>
+
+	<div class="f7">
+		<h2>Sexo:</h2>
+		<form method="POST">
+			
+			<select name="sexo">
+				<option value="masc">Masculino</option>
+				<option value="fem">Feminino</option>
+				<option value="outros">Outro</option>
+			</select>
+		</form>
+	</div>
+
+	<div class="f8">
+		<h2>Bens Pessoais</h2>
+		<form method="POST">
+
+			<input type="checkbox" name="bens1">Casa
+			<input type="checkbox" name="bens2">Carro
+			<input type="checkbox" name="bens3">Moto
+		</form>
+	</div>
+
+	<div class="f9">
+		<h2>Text Area:</h2>
+		<textarea name="experiencias">Experiências Pessoais:</textarea>
+	</div>
+
+	<input id="button1" type="submit" placeholder="Enviar" button style="
+	background-color: green;">
+	<input id="button2" type="reset" placeholder="Limpar" button style="background-color: red;">
+		
+	
+
+
+
+
+
+
+
+
+
+		
+</body>
+</html>
